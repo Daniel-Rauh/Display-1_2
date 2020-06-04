@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background: url(https://picsum.photos/800/600/) center/cover no-repeat;
+    height: 100vh;
+}
+nav{
+    background: rgba(0,0,0,0.5);
+}
+ul{
+    margin: 0;
+    list-style: none;
+    height: 5vh;
+    text-align: right;
+    text-transform: uppercase;
+    padding-top: 2.5vh;
+}
+ul li{
+    display: inline;
+    padding-right: 5%;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
